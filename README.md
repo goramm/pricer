@@ -6,7 +6,7 @@
 
 `yarn install`
 
-## Create db, seed data and fetch prices
+## Create db, seed the data and fetch prices
 
 `rails db:reset`
 
