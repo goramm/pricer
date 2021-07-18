@@ -87,9 +87,15 @@ shops = Shop.create([
     currency_selector: ".product__price .price__regular .price-item",
     description_selector: "meta[name='description']",
   },
+  {
+    host: "www.xtremeinn.com",
+    price_selector: "meta[itemprop='price']",
+    currency_selector: "meta[itemprop='priceCurrency']",
+    description_selector: "meta[name='description']",
+  },
 ])
 
-product_1 = Product.create(name: 'Powerslide HC Evo Pro 90', image_url: 'https://media.grindhouse.eu/CommerceManager/Products/7598/product_7598_60084cc343759_large.jpg')
+product_1 = Product.create(name: 'Powerslide HC Evo Pro 90 2021', image_url: 'https://media.grindhouse.eu/CommerceManager/Products/7598/product_7598_60084cc343759_large.jpg')
 product_1.pages.create([
   {
     url: 'https://www.der-rollenshop.de/Powerslide-Inline-Skates-HC-Evo-Pro-90',
@@ -134,6 +140,10 @@ product_1.pages.create([
   {
     url: 'https://www.thisissoul.com/products/hc-evo-pro?variant=39943259455643',
     shop: shops[12],
+  },
+  {
+    url: 'https://www.xtremeinn.com/extreme_sports/powerslide-hc-evo-pro-90-inline-skates/137966379/p',
+    shop: shops[13],
   },
 ])
 
