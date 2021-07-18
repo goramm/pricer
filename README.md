@@ -1,4 +1,4 @@
-# Development instruction
+# Instruction
 
 ## Installation
 
@@ -6,10 +6,12 @@
 
 `yarn install`
 
-## Run
+## Create db, seed data and fetch prices
 
 `rails db:reset`
 
 `rails fetch_prices`
+
+## Run
 
 `rails s`
