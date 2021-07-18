@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Host:</strong>
+  <%= @shop.host %>
+</p>
+
+<p>
+  <strong>Price selector:</strong>
+  <%= @shop.price_selector %>
+</p>
+
+<p>
+  <strong>Currency selector:</strong>
+  <%= @shop.currency_selector %>
+</p>
+
+<p>
+  <strong>Description selector:</strong>
+  <%= @shop.description_selector %>
+</p>
+
+<%= link_to 'Edit', edit_shop_path(@shop) %> |
+<%= link_to 'Back', shops_path %>

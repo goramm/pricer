@@ -1,0 +1,18 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "bootstrap/scss/bootstrap.scss";
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-nested-group {
+  margin-bottom: 1rem;
+  border: 1px solid $gray-300;
+  padding: 1rem;
+}
+
+.table {
+  td {
+    vertical-align: middle;
+  }
+}

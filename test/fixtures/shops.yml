@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  host: MyString
+  price_selector: MyString
+  currency_selector: MyString
+  description_selector: MyString
+
+two:
+  host: MyString
+  price_selector: MyString
+  currency_selector: MyString
+  description_selector: MyString
