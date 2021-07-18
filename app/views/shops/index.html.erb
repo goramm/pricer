@@ -9,6 +9,7 @@
   <table class="table">
     <thead>
       <tr>
+        <th>#</th>
         <th>Host</th>
         <th>Price selector</th>
         <th>Currency selector</th>
@@ -18,8 +19,9 @@
     </thead>
 
     <tbody>
-      <% @shops.each do |shop| %>
+      <% @shops.each_with_index do |shop, i| %>
         <tr>
+          <td>#<%= i + 1 %></td>
           <td><%= link_to shop.host, shop %></td>
           <td><%= shop.price_selector %></td>
           <td><%= shop.currency_selector %></td>

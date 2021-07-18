@@ -10,6 +10,7 @@
     <thead>
       <tr>
         <th></th>
+        <th></th>
         <th>Name</th>
         <th>From</th>
         <th>To</th>
@@ -18,8 +19,9 @@
     </thead>
 
     <tbody>
-      <% @products.each do |product| %>
+      <% @products.each_with_index do |product, i| %>
         <tr>
+        <td>#<%= i + 1 %></td>
           <td>
             <%= link_to product do %>
               <img src="<%= product.image_url %>" alt="" height="80px">
