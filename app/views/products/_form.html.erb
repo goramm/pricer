@@ -7,7 +7,9 @@
     <%= f.input :name %>
     <%= f.input :image_url %>
 
-    <h4>Pages</h4>
+    <% unless @product.new_record? %>
+      <h4>Pages</h4>
+    <% end %>
     <%= f.simple_fields_for :pages, @product.pages do |pf| %>
       <div class="form-nested-group">
         <strong>Page</strong>
