@@ -59,3 +59,5 @@ gem "simple_form", "~> 5.1"
 gem "cocoon", "~> 1.2"
 
 gem "monetize", "~> 1.11"
+
+gem "seed_dump", "~> 3.3"

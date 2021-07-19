@@ -1,7 +1,7 @@
 Product.create!([
-  {name: "Powerslide HC Evo Pro 90 2021", image_url: "https://media.grindhouse.eu/CommerceManager/Products/7598/product_7598_60084cc343759_large.jpg"},
   {name: "Powerslide Next 110 Pro", image_url: "https://media.grindhouse.eu/CommerceManager/Products/7294/product_7294_5e2095c2451a3_medium.jpg"},
   {name: "FR1 310 Red", image_url: "https://media.grindhouse.eu/CommerceManager/Products/6501/product_6501_5b699623b5609_medium.jpg"},
+  {name: "Powerslide HC Evo Pro 90 2021", image_url: "https://media.grindhouse.eu/CommerceManager/Products/7598/product_7598_60084cc343759_large.jpg"},
   {name: "Powerslide Zoom Pro Lomax 110", image_url: "https://www.xtremeinn.com/f/13796/137966383/powerslide-zoom-pro-lomax-110-inline-skates.jpg"}
 ])
 
@@ -21,6 +21,7 @@ Shop.create!([
   {host: "www.thisissoul.com", price_selector: ".product__price .price__regular .price-item", currency_selector: ".product__price .price__regular .price-item", description_selector: "meta[name='description']"},
   {host: "www.xtremeinn.com", price_selector: "meta[itemprop='price']", currency_selector: "meta[itemprop='priceCurrency']", description_selector: "meta[name='description']"},
   {host: "www.in-gravity.com", price_selector: "#precio_principal span[itemprop='price']", currency_selector: "meta[itemprop='priceCurrency']", description_selector: "meta[name='description']"},
+  {host: "www.hgshop.hr", price_selector: ".product-price .new .price .value", currency_selector: ".product-price .new .price .currency", description_selector: "meta[name='description']"},
   {host: "itaksport.com", price_selector: "meta[property=\"product:price:amount\"]", currency_selector: "meta[property='product:price:currency']", description_selector: "meta[name='description']"}
 ])
 
@@ -45,9 +46,9 @@ Page.create!([
   {url: "https://www.xtremeinn.com/extreme_sports/powerslide-hc-evo-pro-90-inline-skates/137966379/p", product_id: 1, shop_id: 14, price: "569.99", currency: "EUR", description: "Powerslide HC Evo Pro  Inline Skates - BlackThe Powerslide HC Evo  is loved for its great performance and comfort right out of the box extreme sports"},
   {url: "https://www.skatepro.net/121-34775.htm", product_id: 1, shop_id: 6, price: "599.95", currency: "EUR", description: "In stock Buy now for  € The HC Evo Pro are meant for urban freestyle and freeskate action On these Powerslide freeskates you ✓ Free shipping"},
   {url: "https://www.prosports.si/prosti-cas/1531-rolerji-powerslide-urban-skates-hc-evo-pro-90/#/velikost-43", product_id: 1, shop_id: 7, price: "539.97", currency: "EUR", description: "Rolerji POWERSLIDE Urban Skates HC Evo Pro "},
-  {url: "https://www.xtremeinn.com/extreme_sports/powerslide-zoom-pro-lomax-110-inline-skates/137966383/p", product_id: 4, shop_id: 14, price: "237.99", currency: "EUR", description: "Powerslide Zoom Pro Lomax  Inline Skates - BlackI am super excited to finally show you my new Pro Skate the Zoom Pro Lomax from Powers extreme sports"},
-  {url: "https://bladeville.com/powerslide-zoom-pro-lomax-110.html", product_id: 4, shop_id: 2, price: "270.0", currency: "EUR", description: "If you are interested in freeskating and aggressive you should know Nick Lomax His pro model of Zoom is the best edition of this freeskate so far!"},
-  {url: "https://www.inercia.com/en/powerslide-zoom-pro-lomax-110-sample.html", product_id: 4, shop_id: 4, price: "199.99", currency: "EUR", description: "<p>The Powerslide Zoom Triskate is your perfect entry into the world of TRINITY our patented -point mounting system TRINITY has set a new milestone in inline skating as it offers the lowest possible center of gravity a superior power transfer improve"},
-  {url: "https://www.nomadeshop.com/roller/roller-freeskate/powerslide-roller-freeskate-zoom-pro-lomax-110-navy-36158.html", product_id: 4, shop_id: 8, price: "249.9", currency: "EUR", description: "Profitez de votre Roller freeskate ZOOM PRO LOMAX  Navy POWERSLIDE au meilleur prix chez Nomadeshop"},
-  {url: "https://itaksport.com/itak-sport/52567-116964-powerslide-zoom-pro-100-inline-skates-senior.html", product_id: 4, shop_id: 17, price: "269.99", currency: "EUR", description: "Powerslide Zoom PRO Lomax  inline skates - Senior"}
+  {url: "https://www.xtremeinn.com/extreme_sports/powerslide-zoom-pro-lomax-110-inline-skates/137966383/p", product_id: 5, shop_id: 14, price: "237.99", currency: "EUR", description: "Powerslide Zoom Pro Lomax  Inline Skates - BlackI am super excited to finally show you my new Pro Skate the Zoom Pro Lomax from Powers extreme sports"},
+  {url: "https://bladeville.com/powerslide-zoom-pro-lomax-110.html", product_id: 5, shop_id: 2, price: "270.0", currency: "EUR", description: "If you are interested in freeskating and aggressive you should know Nick Lomax His pro model of Zoom is the best edition of this freeskate so far!"},
+  {url: "https://www.inercia.com/en/powerslide-zoom-pro-lomax-110-sample.html", product_id: 5, shop_id: 4, price: "199.99", currency: "EUR", description: "<p>The Powerslide Zoom Triskate is your perfect entry into the world of TRINITY our patented -point mounting system TRINITY has set a new milestone in inline skating as it offers the lowest possible center of gravity a superior power transfer improve"},
+  {url: "https://www.nomadeshop.com/roller/roller-freeskate/powerslide-roller-freeskate-zoom-pro-lomax-110-navy-36158.html", product_id: 5, shop_id: 8, price: "249.9", currency: "EUR", description: "Profitez de votre Roller freeskate ZOOM PRO LOMAX  Navy POWERSLIDE au meilleur prix chez Nomadeshop"},
+  {url: "https://itaksport.com/itak-sport/52567-116964-powerslide-zoom-pro-100-inline-skates-senior.html", product_id: 5, shop_id: 18, price: "269.99", currency: "EUR", description: "Powerslide Zoom PRO Lomax  inline skates - Senior"}
 ])

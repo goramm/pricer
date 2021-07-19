@@ -28,7 +28,7 @@ class Scraper
 
   def parse_value(value, default_value)
     val = value.strip
-    default_value.is_a?(Numeric) ? Monetize.parse(val).to_f : val.gsub(/[\d,.]+/, '')
+    default_value.is_a?(Numeric) ? Monetize.parse(val).to_f : val.gsub(/[\d,.]+/, '').strip
   end
 
   def self.save!(page)

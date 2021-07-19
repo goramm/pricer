@@ -15,3 +15,7 @@
 ## Run
 
 `rails s`
+
+## Seed dump
+
+`rails db:seed:dump`
