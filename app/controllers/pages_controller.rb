@@ -3,7 +3,7 @@ class PagesController < ApplicationController
 
   # GET /pages or /pages.json
   def index
-    @pages = Page.includes(:product).all
+    @pages = Page.includes(:product).order('pages.price asc')
   end
 
   # GET /pages/1 or /pages/1.json
